@@ -1,0 +1,54 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Montserrat';
+}
+
+body::before {
+     display: block;
+     content: '';
+     height: 60px;
+}
+
+.nav-link, .navbar-nav .btn  {
+     font-size: 0.85rem;
+     font-weight: 600;
+}
+
+.nav-link:hover {
+     border-bottom: 1px solid white;
+}
+
+.navbar-collapse {
+     width: 30%;
+}
+
+.seemore {
+     font-weight: 500;
+}
+
+.condition {
+     font-size: 13px;
+}
+
+.main-h6 {
+     font-size: 13px;
+     font-weight: 600;
+}
+
+/* .footer-link {
+     font-size: 17px;
+     text-decoration: none;
+} */
+
+.footer-nav {
+     list-style-type: none;
+}
+
+@media(min-width: 768px) {
+     .news-input {
+          width: 50%;
+     }
+}
+
+
